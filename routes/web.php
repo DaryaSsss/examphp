@@ -57,3 +57,4 @@ Route::get('/mythings',[ThingController::class,'mythings']);
 Route::get('/usages/{id}',[UsageController::class,'index']);
 
 Route::post('/usages/{id}',[UsageController::class,'store']);
+Route::get('/usages/delete/{id}',[UsageController::class,'delete']);

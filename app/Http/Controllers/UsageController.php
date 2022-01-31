@@ -36,4 +36,8 @@ class UsageController extends Controller
         $usage->save();
         return redirect('/mythings');
     }
+    public function delete($id){
+        Usage::where('thing_id',$id)->delete();
+        return redirect('/');
+    }
 }

@@ -28,5 +28,6 @@
       </div>
       <input type="text" id="thing" name="thing_id" value={{$thing->id}} hidden>
     <button type="submit" class="btn btn" style="background-color: #E6E6FA">Отправить</button>
-</form>
+    <a href="/usages/delete/{{$thing->id}}" style="color: #9370DB; text-decoration: none;">Вернуть себе</a>
+  </form>
 @endsection
