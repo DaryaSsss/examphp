@@ -18,6 +18,6 @@
         <label for="work" class="form-label">В работе</label>
         <input type="checkbox"  id="work" name="work" @if($place->work==1) checked @endif>
       </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn" style="background-color: #E6E6FA">Изменить</button>
   </form>
 @endsection

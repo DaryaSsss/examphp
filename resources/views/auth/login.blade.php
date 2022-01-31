@@ -11,6 +11,6 @@
       <label for="exampleInputPassword1" class="form-label">Password</label>
       <input required type="password" class="form-control" id="exampleInputPassword1" name="password">
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn" style="background-color: #E6E6FA">Войти</button>
   </form>
 @endsection

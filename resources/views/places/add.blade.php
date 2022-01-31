@@ -18,6 +18,6 @@
         <label for="work" class="form-label">В работе</label>
         <input type="checkbox"  id="work" name="work">
       </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn" style="background-color: #E6E6FA">Создать</button>
   </form>
 @endsection

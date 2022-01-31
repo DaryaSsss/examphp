@@ -5,9 +5,9 @@
 @foreach($things as $thing)
     Название: {{$thing->name}} <br> Описание: {{$thing->description}} <br> Гарантия: {{$thing->wrnt}} <br>
     Действия:
-    <a href="things/delete/{{$thing->id}}">Удалить</a>
-    <a href="things/update/{{$thing->id}}">Изменить</a>
-    <a href="/usages/{{$thing->id}}">Изменить состояние хранения</a>
+    <a href="things/delete/{{$thing->id}}" style="color: #9370DB; text-decoration: none;" >Удалить</a>
+    <a href="things/update/{{$thing->id}}" style="color: #9370DB; text-decoration: none;">Изменить</a>
+    <a href="/usages/{{$thing->id}}" style="color: #9370DB; text-decoration: none;">Изменить состояние хранения</a>
     <hr>
 <br>
 @endforeach

@@ -14,6 +14,6 @@
         <label for="wrnt" class="form-label">Гарантия</label>
         <input type="date" class="form-control" id="wrnt" name="wrnt" value="{{$thing->wrnt}}">
       </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn" style="background-color: #E6E6FA">Изменить</button>
   </form>
 @endsection

@@ -27,6 +27,6 @@
         <input required type="number" id="amount" name="amount" min="1">
       </div>
       <input type="text" id="thing" name="thing_id" value={{$thing->id}} hidden>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn" style="background-color: #E6E6FA">Отправить</button>
 </form>
 @endsection

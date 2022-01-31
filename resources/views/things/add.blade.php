@@ -14,6 +14,6 @@
         <label for="wrnt" class="form-label">Гарантия</label>
         <input required type="date" class="form-control" id="wrnt" name="wrnt">
       </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn" style="background-color: #E6E6FA">Создать</button>
   </form>
 @endsection

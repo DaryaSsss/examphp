@@ -30,7 +30,7 @@
                       </li>
                       @else 
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Вещи в использовании</a>
+                        <a class="nav-link " aria-current="page" href="/">Вещи в использовании</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="/things">Вещи</a>
