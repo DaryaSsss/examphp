@@ -22,6 +22,7 @@ class ThingController extends Controller
     }
 
     public function add(){
+        $this->authorize('add', Thing::class);
         return view('things.add');
     }
 
@@ -45,6 +46,7 @@ class ThingController extends Controller
     }
 
     public function delete($id){
+        $this->authorize('delete', Thing::class);
         $thing = Thing::find($id);
         $thing->delete();
         Usage::where('thing_id',$id)->delete();
@@ -52,6 +54,7 @@ class ThingController extends Controller
     }
 
     public function update($id){
+        $this->authorize('update', Thing::class);
         $thing = Thing::find($id);
         return view('things.edit',['thing'=>$thing]);
     }
