@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
 <h2>Места хранения</h2>
-@if(Auth::check())<a href="/places/add" style="color: #9370DB; text-decoration: none;"><h5>Создать место</h5></a>@endif
+@if(Auth::check())<a href="/places/add" style="color: #9370DB; text-decoration: none;"><h4>Создать место</h4></a>@endif
 @foreach($places as $place)
     <div>Название: {{$place->name}} <br> Описание: {{$place->description}} <br> Специальное место = @if($place->repair==1)Да @else Нет @endif <br> Рабочее место = @if($place->work==1)Да @else Нет @endif
     <br> Действия:

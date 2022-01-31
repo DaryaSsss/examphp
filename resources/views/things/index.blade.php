@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
 <h2>Все вещи</h2>
-@if(Auth::check())<a href="/things/add" style="color: #9370DB; text-decoration: none;"><h5>Создать вещь</h5></a>@endif
+@if(Auth::check())<a href="/things/add" style="color: #9370DB; text-decoration: none;"><h4>Создать вещь</h4></a>@endif
 @foreach($things as $thing)
     <div>Название: {{$thing->name}} <br> Описание: {{$thing->description}} <br> Гарантия: {{$thing->wrnt}} <br> Создатель: {{$thing->user->name}} <br>
     Действия:
